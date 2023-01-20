@@ -1,0 +1,12 @@
+{
+    "name": "snail/app",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Oriana Morillo"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
