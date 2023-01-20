@@ -13,6 +13,7 @@ function createSnailShell(int $x): array  {
      // initialize in [3, 3]
     $bottomIndex = $rightIndex = $x - 1;
     $number = 1;
+    //Evaluate while there are movements
     while ($topIndex <= $bottomIndex && $leftIndex <= $rightIndex) {
         //Top column: Moves to the right
         for ($i = $leftIndex; $i <= $rightIndex; $i++) {
